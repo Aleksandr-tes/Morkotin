@@ -140,6 +140,7 @@ a {
   font-size: 16px;
   line-height: 150%;
   color: #143F6B;
+  transition: all 0.5s ease;
 }
 .item-li a:hover {
   color: #FF7E7F;
@@ -803,6 +804,10 @@ a {
   line-height: 150%;
   color: #143F6B;
   display: flex;
+  transition: all 0.5s ease;
+}
+.footer__link:hover {
+  color: #FF7E7F;
 }
 .footer__link img {
   margin-right: 17px;
@@ -811,6 +816,19 @@ a {
   margin-top: 30px;
   display: flex;
   gap: 18px 18px;
+}
+.footer__block-icon a:hover img {
+  opacity: 0.8;
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
 .footer__end {
   display: flex;
@@ -824,6 +842,14 @@ a {
   line-height: 118.75%;
   text-align: center;
   color: #143F6B;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.footer__end a:hover {
+  color: #FF7E7F;
 }
 
 /* ======== footer / ======= */
